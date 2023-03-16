@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Morpion en HTML</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      margin: 50px auto;
+    }
+    td {
+      border: 1px solid #000;
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 2em;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align:center;">Morpion en HTML</h1>
+  <table>
+    <tr>
+      <td>X</td>
+      <td>O</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>O</td>
+      <td>X</td>
+      <td>O</td>
+    </tr>
+    <tr>
+      <td>O</td>
+      <td>X</td>
+      <td>O</td>
+    </tr>
+  </table>
+</body>
+</html>
